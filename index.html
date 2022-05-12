@@ -23,14 +23,25 @@
     <main>
         <section id="container">
             <div id="opçõesCriptografia">
-                <form>
+                <form id="linguagemInicial">
                     <label for="">Qual é a linguagem inicial do texto?</label>
-                    <select name="linguagem" id="linguagem">
+                    <select name="linguagem">
                         <option value="decimal">Decimal</option>
                         <option value="binario">Binário</option>
                         <option value="octal">Octal</option>
                     </select>
                 </form>
+                <form id="linguagemFinal">
+                    <label for="">Para qual linguagem deseja transcrever?</label>
+                    <select name="linguagem">
+                        <option value="decimal">Decimal</option>
+                        <option value="binario">Binário</option>
+                        <option value="octal">Octal</option>
+                    </select>
+                </form>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
             </div>
             <div id="lowerSection">
 
