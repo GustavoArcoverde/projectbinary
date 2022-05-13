@@ -1,0 +1,42 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(25, 25, 25);
+}   
+
+#logo{
+    color: rgb(29, 202, 29);
+}
+
+#logo::after{
+    content: '_';
+    animation: underlineSomeAparece 1s infinite;
+}
+
+@keyframes underlineSomeAparece{
+    0% {
+       opacity: 100%;
+    }
+    49%{
+        opacity: 100%;
+    }
+    50%{
+       opacity: 0%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+#barraNav>a{
+    color:rgb(29, 202, 29);
+    text-decoration: none;
+    padding: 15px;
+}
+
+textarea{
+    resize: none
+}
