@@ -37,6 +37,14 @@
     padding: 15px;
 }
 
+#opçõesCriptografia{
+    display: flex;
+}
+
+#input-output{
+    display: flex;
+}
+
 textarea{
     resize: none
 }
